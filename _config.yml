@@ -4,7 +4,7 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   Geometric structures lab
 baseurl: "/glab" # the subpath of your site, e.g. /blog/
-iconurl: "/images/contact.png"
+iconurl: "/glab/images/contact.png"
 icondesc: "Contact structure"
 url: "http://g-s-lab.github.io/glab" # the base hostname & protocol for your site
 twitter_username: 
