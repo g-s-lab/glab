@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 iconurl: "/images/contact.png"
 icondesc: "Contact structure"
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://g-s-lab.github.io/glab" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  g-s-lab
 
