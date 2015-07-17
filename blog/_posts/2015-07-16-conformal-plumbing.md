@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Conformal lumbing construction"
+title:  "Conformal plumbing construction"
 date:   2015-07-16
 categories: blog
 ---
