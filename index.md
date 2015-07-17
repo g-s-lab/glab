@@ -27,7 +27,7 @@ The Geometric Structures Lab is located within the [Fields Institute](http://www
   {% assign curDate = site.time | date: '%s' %}
   {% for post in site.categories['talk'] reversed %}
     {% assign postStartDate = post.date | date: '%s' %}
-    {% if postStartDate >= curDate and counter  < 6 %}
+    {% if postStartDate >= curDate and counter  < 5 %}
        {% assign counter = counter | plus: 1 %}                
          <li>
            <span class="post-meta">{{ post.date | date: "%b %-d, %Y, %-T" }}</span>
@@ -39,12 +39,6 @@ The Geometric Structures Lab is located within the [Fields Institute](http://www
     {% endif %}
 {% endfor %}
   
-<!--  {% for post in site.categories['talk'] limit: 5 %}
-      {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-      {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-        {% if posttime > nowunix %}
-        {% endif %}
-  {% endfor %} -->
 </ul>
 
 
