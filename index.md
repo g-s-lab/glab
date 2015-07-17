@@ -18,7 +18,7 @@ The Geometric Structures Lab is located within the [Fields Institute](http://www
 {% endfor %}
       
 {% if counter != 0 %}
-## Upcoming Events  
+## Upcoming events  
 {% endif %}
 
 <div class="home">
@@ -27,7 +27,7 @@ The Geometric Structures Lab is located within the [Fields Institute](http://www
   {% assign curDate = site.time | date: '%s' %}
   {% for post in site.categories['talk'] reversed %}
     {% assign postStartDate = post.date | date: '%s' %}
-    {% if postStartDate >= curDate and counter  < 5 %}
+    {% if postStartDate >= curDate and counter  < 3 %}
        {% assign counter = counter | plus: 1 %}                
          <li>
            <span class="post-meta">{{ post.date | date: "%b %-d, %Y, %-T" }}</span>
@@ -37,11 +37,26 @@ The Geometric Structures Lab is located within the [Fields Institute](http://www
          </li>
         
     {% endif %}
-{% endfor %}
-  
-</ul>
-
-
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
- -->
+  {% endfor %}
+  </ul>
 </div>
+
+
+## Recent blog entries  
+
+<div class="home">
+  <ul class="post-list">
+{% for post in site.categories['blog'] limit: 3 %}
+  <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+    </li>
+{% endfor %}
+</ul>
+</div>
+
+
+<!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+ -->
