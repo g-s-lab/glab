@@ -6,4 +6,4 @@ permalink: /research/
 
 # Research
 
-![Sto_2 Stokes groupoid](/images/Stokes2.png)
+![Sto_2 Stokes groupoid]({{ site.url }}/images/Stokes2.png)
