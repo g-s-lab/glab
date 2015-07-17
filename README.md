@@ -1,4 +1,3 @@
-# glab
-Geometric Structures Lab
-Main site [here](http://g-s-lab.github.io/glab)
+# [Geometric structures lab website](http://g-s-lab.github.io/glab)
+
 
