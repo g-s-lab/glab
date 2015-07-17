@@ -1,7 +1,7 @@
 ---
 layout: event
 name: "Test"
-title:  "Renormalization of QFTs by example"
+title:  "Noncommutative instantons"
 date:   2015-07-27 11:10
 location: Fields Institute, room 210
 categories: talk	

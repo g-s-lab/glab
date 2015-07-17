@@ -1,7 +1,7 @@
 ---
 layout: event
 name: "Test"
-title:  "Renormalization of QFTs by example"
+title:  "Another Event"
 date:   2015-10-23 11:10
 location: Fields Institute, room 210
 categories: talk	

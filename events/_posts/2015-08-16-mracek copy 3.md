@@ -1,7 +1,7 @@
 ---
 layout: event
 name: "Test"
-title:  "Renormalization of QFTs by example"
+title:  "The Airy Function"
 date:   2015-07-24 11:10
 location: Fields Institute, room 210
 categories: talk	
