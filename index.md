@@ -21,7 +21,7 @@ The Geometric Structures Lab is located within the [Fields Institute](http://www
 ## Upcoming events  
 {% endif %}
 
-<div class="home" style="text-indent: 2em;">
+<div class="home" style="text-indent: 1em;">
   <ul class="post-list">
   {% assign counter = 0 %}
   {% assign curDate = site.time | date: '%s' %}
@@ -44,7 +44,7 @@ The Geometric Structures Lab is located within the [Fields Institute](http://www
 
 ## Recent blog entries  
 
-<div class="home" style="text-indent: 2em;">
+<div class="home" style="text-indent: 1em;">
   <ul class="post-list">
 {% for post in site.categories['blog'] limit: 3 %}
   <li>
