@@ -7,7 +7,7 @@ categories: blog
 ---
 
 The construction used in [Omar Kidwai's talk], in which he describes a family of $$\mathbf{P}^1$$ curves
-degenerating to a nodal $$\mathbb{P}^1$$ equipped with a family of connections with four poles which 
+degenerating to a nodal $$\mathbf{P}^1$$ equipped with a family of connections with four poles which 
 limits to a meromorphic connection on the nodal curve with three poles on each rational component,
 is sometimes referred to as the *conformal plumbing construction* and occurs in this recent Paper by Swoboda:
 
