@@ -6,7 +6,8 @@ layout: default
 
 The Geometric Structures Lab is located within the [Fields Institute](http://www.fields.utoronto.ca/) at the [University of Toronto](http://www.math.toronto.edu/) and engages in basic research at the interface of mathematics and physics.  Main focus areas include [generalized geometry](https://en.wikipedia.org/wiki/Generalized_complex_structure), [Poisson geometry](https://en.wikipedia.org/wiki/Poisson_manifold), the [Hitchin system](https://en.wikipedia.org/wiki/Hitchin_system), the theory of [Lie groupoids](https://en.wikipedia.org/wiki/Lie_groupoid), the exact WKB method, the [Riemann-Hilbert correspondence](https://en.wikipedia.org/wiki/Riemann%E2%80%93Hilbert_correspondence) and the study of [quantum field theory](https://en.wikipedia.org/wiki/Quantum_field_theory).
 
-  A primary function of the Laboratory is to support and enhance the training of graduate and undergraduate students. To this end, we organize meetings to discuss and explain our research, as well as master classes given by invited experts.
+<!---  A primary function of the Laboratory is to support and enhance the training of graduate and undergraduate students. To this end, we organize meetings to discuss and explain our research, as well as master classes given by invited experts.
+-->
 
 {% assign counter = 0 %}
 {% for post in site.categories['talk'] %}
@@ -21,7 +22,7 @@ The Geometric Structures Lab is located within the [Fields Institute](http://www
 ## Upcoming events  
 {% endif %}
 
-<div class="home" style="text-indent: 1em;">
+<div class="home" style="text-indent: 2em;">
   <ul class="post-list">
   {% assign counter = 0 %}
   {% assign curDate = site.time | date: '%s' %}
@@ -44,7 +45,7 @@ The Geometric Structures Lab is located within the [Fields Institute](http://www
 
 ## Recent blog entries  
 
-<div class="home" style="text-indent: 1em;">
+<div class="home" style="text-indent: 2em;">
   <ul class="post-list">
 {% for post in site.categories['blog'] limit: 3 %}
   <li>
