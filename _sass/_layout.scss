@@ -141,7 +141,7 @@
 }
 
 .footer-icon {
-    padding-right: 1em;
+    padding-left: 1em;
 }
 
 @include media-query($on-laptop) {
@@ -209,6 +209,11 @@
     margin-left: 0;
     list-style: none;
 }
+
+.floatrightimg {
+     float: right;
+}
+
 
 /**
  * Posts

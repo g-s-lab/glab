@@ -5,5 +5,7 @@ permalink: /research/
 ---
 
 # Research
-
-![Sto_2 Stokes groupoid]({{ site.url }}/images/Stokes2-sm.png)
+ 
+ ![Sto_2 Stokes groupoid]({{ site.baseurl }}/images/Stokes2-sm.png){: .floatrightimg}
+ 
+ 

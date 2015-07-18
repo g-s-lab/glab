@@ -34,11 +34,9 @@ Main focus areas include [generalized geometry](https://en.wikipedia.org/wiki/Ge
        {% assign counter = counter | plus: 1 %}                
          <li>
            <span class="post-meta">{{ post.date | date: "%b %-d, %Y, %l:%M %p" }}</span>
-            <h3>
-               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                  {{ post.name }}: <i>{{ post.title }}</i>
-               </a>
-           </h3>
+           </a>
          </li>
         
     {% endif %}
@@ -54,9 +52,9 @@ Main focus areas include [generalized geometry](https://en.wikipedia.org/wiki/Ge
 {% for post in site.categories['blog'] limit: 3 %}
   <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
-        <h2>
+        <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        </h3>
     </li>
 {% endfor %}
 </ul>
