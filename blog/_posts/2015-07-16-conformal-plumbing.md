@@ -2,7 +2,7 @@
 layout: post
 author: Marco Gualtieri
 title: Conformal plumbing construction
-date: {}
+date: 2015-07-16
 categories: blog
 published: true
 ---
