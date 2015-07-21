@@ -4,11 +4,11 @@
 @charset "utf-8";
 
 /* want a font from google web fonts */
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
 
 // Our variables
-$base-font-family: Lato, Helvetica, Georgia, Serif;
+$base-font-family: 'PT Sans', Helvetica, Georgia, Serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
