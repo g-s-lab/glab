@@ -6,7 +6,6 @@ permalink: /events/
 
 # Events
 
-Video of gLab events is archived by the Fields Live system [here](http://www.fields.utoronto.ca/video-archive/event/136/2015?access_code=GeoStr)
 
 <div>
   <ul class="event-list">
