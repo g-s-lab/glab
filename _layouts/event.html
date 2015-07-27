@@ -17,4 +17,8 @@ layout: default
     {{ content }}
   </article>
 
+{% if page.videourl %}
+<a class="event-video-link" href="{{ page.videourl }}"> Fields Live Video </a>
+{% endif %}
+
 </div>
