@@ -32,7 +32,7 @@
     float: right;
     line-height: 1.8* ($spacing-unit);
     letter-spacing: -$spacing-unit/32;
-    font-size: 1.2*$base-font-size;
+    font-size: 1.1*$base-font-size;
     .menu-icon {
         display: none;
     }
@@ -179,7 +179,7 @@
 }
 
 .post-list {
-    margin-left: 0;
+    margin-left: $spacing-unit;
     list-style: none;
 }
 
