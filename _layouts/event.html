@@ -16,7 +16,32 @@ layout: default
   </article>
 
 {% if page.videourl %}
-<a class="event-video-link" href="{{ page.videourl }}"> Fields Live Video </a>
+<a class="event-video-link" href="{{ page.videourl }}"> Fields Live Video </a> <br>
 {% endif %}
+
+
+{% for post in site.categories.talk %}
+        {% if post.url == page.url %}
+            {% assign post_index0 = forloop.index0 %}
+            {% assign post_index1 = forloop.index %}
+        {% endif %}
+    {% endfor %}
+    {% for post in site.categories.talk %}
+        {% if post_index0 == forloop.index %}
+            {% assign next_post = post.url %}
+        {% endif %}
+        {% if post_index1 == forloop.index0 %}
+            {% assign prev_post = post.url %}
+        {% endif %}
+    {% endfor %}
+    {% if prev_post %}
+        <br><a href="{{ prev_post | prepend: site.baseurl }}">Previous Event</a> <br>
+    {% endif %}
+    {% if next_post %}
+        <a href="{{ next_post | prepend: site.baseurl }}" style="text-align: right;">Next Event</a> <br>
+    {% endif %}
+    
+
+
 
 </div>
