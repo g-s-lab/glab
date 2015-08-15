@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Marco Gualtieri
-title: Toric Stacks
+title: Toric stacks
 date: 2015-08-13
 categories: blog
 published: true
