@@ -1,7 +1,7 @@
 ---
 layout: event
 name: Marco Gualtieri
-institution: Pennsylvania State University
+institution: University of Toronto
 title: Deformation of Kahler structures into generalized Kahler structures
 date: "2015-12-17 11:10"
 location: "Fields Institute, room 210"
