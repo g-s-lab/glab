@@ -16,7 +16,7 @@ permalink: /events/
       <a class="event-link" href="{{ post.url | prepend: site.baseurl }}">
         {{ post.title }}
       </a>
-      </br>
+      
       </br>
     </li>
     {% endfor %}
