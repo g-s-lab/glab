@@ -4,12 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-[Hodge Theory &#124; winter 2016](#Hodge2016)
-
-[Homotopical Structures &#124; winter 2015](#Homotop2015)
-
-[Generalised Complex Geometry &#124; autumn 2014](#GCG2014)
-
 
 ## Hodge Theory | winter 2016
 
