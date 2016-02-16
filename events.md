@@ -9,7 +9,7 @@ permalink: /events/
 
 <div>
   <ul class="event-list">
-    {% for post in site.categories['evens'] %}
+    {% for post in site.categories['events'] %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y, %l:%M %p" }} • {{ post.name }}</span>
       <br>
