@@ -17,6 +17,7 @@ permalink: /events/
         {{ post.title }}
       </a>
       </br>
+      </br>
     </li>
     {% endfor %}
   </ul>
