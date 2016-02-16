@@ -13,8 +13,7 @@ permalink: /reading/
 [Generalised Complex Geometry &#124; autumn 2014](#GCG2014)
 
 
-## Hodge Theory &#124; winter 2016
-<a name="Hodge2016"></a>
+## <a name="Hodge2016"></a>Hodge Theory &#124; winter 2016
 
 ### Materials
 
@@ -41,8 +40,7 @@ permalink: /reading/
   </ul>
 </div>
 
-## Homotopical Structures &#124; winter 2015
-<a name="Homotop2015"></a>
+## <a name="Homotop2015"></a>Homotopical Structures &#124; winter 2015
 
 ### Materials
 
@@ -67,8 +65,7 @@ permalink: /reading/
   </ul>
 </div>
 
-## Generalised Complex Geometry &#124; autumn 2014
-<a name="GCG2014"></a>
+## <a name="GCG2014"></a>Generalised Complex Geometry &#124; autumn 2014
 
 ### Materials
 
