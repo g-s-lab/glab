@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-[Hodge Theory | winter 2016](#Hodge2016)
+[Hodge Theory  winter 2016](#Hodge2016)
 
 [Homotopical Structures | winter 2015](#Homotop2015)
 
