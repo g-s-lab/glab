@@ -11,4 +11,5 @@ twitter_username:
 github_username:  g-s-lab
 
 # Build settings
+future: true
 markdown: kramdown
