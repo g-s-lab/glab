@@ -43,7 +43,26 @@ Main focus areas include [generalized geometry](https://en.wikipedia.org/wiki/Ge
   </ul>
 </div>
 
+## Recent events
 
+<div class="home">
+  <ul class="post-list">
+{% for post in site.categories['talk'] limit: 3 %}
+    <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+    </li>
+{% endfor %}
+</ul>
+</div>
+
+
+
+
+
+<!--
 ## Recent blog entries  
 
 <div class="home">
@@ -58,7 +77,7 @@ Main focus areas include [generalized geometry](https://en.wikipedia.org/wiki/Ge
 {% endfor %}
 </ul>
 </div>
-
+-->
 
  
 
