@@ -3,7 +3,7 @@ layout: event
 categories: talk
 name: Mykola Matviichuk
 institution: University of Toronto
-title: Deformation theory of Dirac structures via $L_\infty$ algebras
+title: Deformation theory of Dirac structures via \(L_\infty\) algebras
 date: "2016-09-01 11:10"
 location: "Fields Institute, room 210"
 videourl: http://www.fields.utoronto.ca/talks/deformation-theory-dirac-structures-l%E2%88%9E-algebras
