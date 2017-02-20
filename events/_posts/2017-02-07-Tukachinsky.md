@@ -6,7 +6,7 @@ institution: Université de Montréal
 title: Bounding chains and genus zero open Gromov-Witten theory
 date: "2017-02-07 11:10"
 location: "Fields Institute, Stewart Library"
-videourl: 
+videourl: http://www.fields.utoronto.ca/video-archive/static/2017/02/1511-16504/mergedvideo.ogv
 ---
 Abstract: Dealing with pseudo-holomorphic disks, $A_\infty$-algebras supply a convenient working language. In particular, solutions to the Maurer-Cartan equation, a.k.a. bounding chains, allow us to describe bubbling at the boundary. Such bubbling is an obstacle for defining structures related to Lagrangians, such as Floer cohomology or open Gromov-Witten invariants.
 
