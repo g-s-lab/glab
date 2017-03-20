@@ -6,7 +6,7 @@ institution: University of Toronto
 title: Derived categories of del Pezzo surface (continued)
 date: "2017-03-14 11:10"
 location: "Fields Institute, Stewart Library"
-videourl: 
+videourl: http://www.fields.utoronto.ca/video-archive/static/2017/03/1511-16671/mergedvideo.ogv
 ---
 Abstract: This is a continuation of the talk from March 7, 2017.
 
