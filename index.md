@@ -19,8 +19,8 @@ Main focus areas include [generalized geometry](https://en.wikipedia.org/wiki/Ge
 {% endfor %}
       
 {% if counter != 0 %}
-## Upcoming events  
-{% endif %}
+
+## Upcoming events
 
 <div class="home">
   <ul class="post-list">
@@ -32,16 +32,19 @@ Main focus areas include [generalized geometry](https://en.wikipedia.org/wiki/Ge
     {% assign counter = counter | plus: 1 %}
         <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y, %l:%M %p" }} • {{ post.name }}</span>
-            <br>
+            <h3>
                 <a class="event-link" href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
                 </a>
-            </br>
+            </h3>
         </li>
     {% endif %}
   {% endfor %}
   </ul>
 </div>
+
+{% endif %}
+
 
 ## Recent events
 
@@ -57,9 +60,6 @@ Main focus areas include [generalized geometry](https://en.wikipedia.org/wiki/Ge
 {% endfor %}
 </ul>
 </div>
-
-
-
 
 
 <!--
@@ -78,11 +78,6 @@ Main focus areas include [generalized geometry](https://en.wikipedia.org/wiki/Ge
 </ul>
 </div>
 -->
-
- 
-
-
-
 
 
 <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
